@@ -19,9 +19,10 @@ Il dispositivo è basato su Arduino Nano 33 IoT BLE ed è dotato di 11 servomoto
 
 Applicazione Android (Android 11) per il controllo remoto del dispositivo tramite Bluetooth Low Energy.
 
-![Android App](Immagini/Interfaccia_Android_1.png)
-![Android App](Immagini/Interfaccia_Android_2.png)
-![Android App](Immagini/Interfaccia_Android_3.png)
+
+<img src="Immagini/Interfaccia_Android_1.png" width="400">
+<img src="Immagini/Interfaccia_Android_2.png" width="400">
+<img src="Immagini/Interfaccia_Android_3.png" width="400">
 
 ---
 
@@ -55,8 +56,8 @@ Modelli 3D e assiemi utilizzati durante la fase di progettazione per la definizi
 
 ## Immagine del prototipo
 
-<img src="Immagini/Gatto1.png" width="200">
-<img src="Immagini/Gatto1_1.png" width="200">
-<img src="Immagini/Gatto1_2.png" width="200">
+<img src="Immagini/Gatto1.png" width="400">
+<img src="Immagini/Gatto1_1.png" width="400">
+<img src="Immagini/Gatto1_2.png" width="400">
 
 ---
