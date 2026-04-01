@@ -6,7 +6,7 @@ FabCat è un prototipo di gatto robotico realizzato in legno, progettato con una
 
 Il sistema è stato sviluppato partendo dalla modellazione 3D in ambiente CAD (SolidWorks), successivamente convertita in disegni 2D per il taglio laser (LaserCut / RDWorks). La struttura ottenuta integra componenti elettronici e attuatori, dando origine a un oggetto meccatronico funzionante.
 
-Il dispositivo è basato su Arduino Nano 33 IoT BLE ed è dotato di 11 servomotori. Il comportamento è interamente programmabile e consente l’esecuzione di movimenti semplici, come sedersi, salutare e simulare uno stato di riposo. Il sistema è inoltre in grado di emettere suoni.
+Il dispositivo è basato su Arduino Nano 33 IoT BLE ed è dotato di 11 servomotori. Il comportamento è interamente programmabile e consente l’esecuzione di movimenti semplici, come sedersi, salutare e simulare uno stato di riposo. Il sistema è inoltre in grado di miagolare.
 
 ![FabCat](Immagini/Gatto1.gif)
 
