@@ -48,21 +48,15 @@ Raccolta dei file DXF utilizzati per il taglio laser dei componenti in legno.
 ### /Modello 3D SolidWorks
 
 Modelli 3D e assiemi utilizzati durante la fase di progettazione per la definizione degli incastri e della struttura complessiva.
-![Render 3D](Immagini/gatto_render.png)
+![Render 3D](Immagini/Gatto_render.png)
 
 
 ---
 
 ## Immagine del prototipo
 
-![FabCat](Immagini/Gatto1.png)
-![FabCat](Immagini/Gatto1_1.png)
-![FabCat](Immagini/Gatto1_2.png)
-
-
+<img src="Immagini/Gatto1.png" width="200">
+<img src="Immagini/Gatto1_1.png" width="200">
+<img src="Immagini/Gatto1_2.png" width="200">
 
 ---
-
-## Note
-
-Questa repository rappresenta un progetto conclusivo e documenta le diverse fasi di sviluppo (progettazione, simulazione e realizzazione), senza l’obiettivo di fornire una guida completa alla riproduzione del sistema.
