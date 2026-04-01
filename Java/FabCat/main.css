@@ -1,0 +1,4 @@
+.border {
+  -fx-background-fill: black, white;
+  -fx-background-insets: 0, 0 1 1 0;
+}

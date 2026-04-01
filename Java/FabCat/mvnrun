@@ -1,0 +1,2 @@
+cmd: mvn pakage (dir: .FabCat) //per costruire il jar *NON* runnabile a meno di: riga 2
+per runnare jar non runnabile automaticamente: mvn exec:java (dir: <mvn package>)

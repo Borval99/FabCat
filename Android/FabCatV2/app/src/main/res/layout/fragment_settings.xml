@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray"
+    tools:context=".bluetooth">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginVertical="10dp"
+
+
+        >
+
+        <TextView
+            android:id="@+id/PitchRoll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_PR_read"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginVertical="10dp"/>
+
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/PitchRollBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_toRightOf="@id/PitchRoll"
+            android:layout_marginTop="4dp"
+            />
+
+        <TextView
+            android:id="@+id/PitchRollWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_PR_write"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_below="@id/PitchRoll"
+            android:layout_marginVertical="10dp"/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/PitchRollWriteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_toRightOf="@id/PitchRoll"
+            android:layout_below="@+id/PitchRollBtn"
+
+            android:layout_marginTop="4dp"
+            />
+
+        <TextView
+            android:id="@+id/AutoStr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PitchRollWrite"
+            android:textStyle="bold"
+            android:text="@string/text_AutoStr"
+            android:layout_marginVertical="10dp"
+            android:textSize="25sp" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/AutoStrBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PitchRollWriteBtn"
+            android:layout_alignRight="@+id/PitchRollBtn"
+            android:layout_marginTop="7dp"
+            />
+
+        <TextView
+            android:id="@+id/AutoBal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AutoStr"
+            android:text="@string/text_AutoBal"
+            android:textStyle="bold"
+            android:layout_marginVertical="10dp"
+            android:textSize="25sp" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/AutoBalBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AutoStrBtn"
+            android:layout_alignRight="@id/PitchRollBtn"
+            android:layout_marginTop="4dp"
+            />
+
+        <TextView
+            android:id="@+id/Pitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AutoBal"
+            android:layout_marginVertical="10dp"
+            android:text="@string/text_Pitch_settings"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/Roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Pitch"
+            android:layout_toRightOf="@id/Pitch"
+            android:layout_marginLeft="80dp"
+            android:text="@string/text_Roll_settings"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/PitchVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Pitch"
+            android:layout_toRightOf="@id/Pitch"
+            android:text="@string/text_Pitch_value"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/RollVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Pitch"
+            android:layout_toRightOf="@id/Roll"
+            android:text="@string/text_Roll_value"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
+

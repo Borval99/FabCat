@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightGray"
+        tools:context=".bluetooth">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="30dp"
+            >
+
+            <Button
+                android:id="@+id/OnOffBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/list_device"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:id="@+id/btnConn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/list_device"
+                android:layout_alignRight="@id/list_device"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/list_device"
+                android:text="@string/connect" />
+
+            <ListView
+                android:id="@+id/list_device"
+                android:layout_width="400dp"
+                android:layout_height="0dp"
+                android:layout_below="@id/OnOffBtn"
+                android:layout_centerHorizontal="true"
+                android:choiceMode="singleChoice"
+                android:listSelector="#666666"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/border_ui" />
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+

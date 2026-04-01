@@ -1,0 +1,3 @@
+module inquiry {
+	requires bluecove;
+}

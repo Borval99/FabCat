@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FabCatV2</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="chip0">\u0020Motor 1\u0020</string>
+    <string name="chip1">\u0020Motor 2\u0020</string>
+    <string name="chip2">\u0020Motor 3\u0020</string>
+    <string name="chip3">\u0020Motor 4\u0020</string>
+    <string name="chip4">\u0020Motor 5\u0020</string>
+    <string name="chip5">\u0020Motor 6\u0020</string>
+    <string name="chip6">\u0020Motor 7\u0020</string>
+    <string name="chip7">\u0020Motor 8\u0020</string>
+    <string name="chip8">\u0020Motor 9\u0020</string>
+    <string name="chip9">Motor 10</string>
+    <string name="chip10">Motor 11</string>
+    <string name="chip11">\u0020\u0020\u0020\u0020OFF\u0020\u0020\u0020\u0020</string>
+    <string name="cat_image_description">FabCat Image</string>
+    <string name="hello_blank_fragment">New Fragment!</string>
+    <string name="off_bluetooth">Turn OFF Bluetooth</string>
+    <string name="on_bluetooth">Turn ON Bluetooth</string>
+    <string name="x2">x2</string>
+    <string name="x1">x1</string>
+    <string name="x5">x5</string>
+    <string name="connect">Connect</string>
+    <string name="default_motor_text">Motor 1 selected</string>
+    <string name="plus">+</string>
+    <string name="default_motor_value">100</string>
+    <string name="minus">–</string>
+    <string name="text_PR_read">Pitch/Roll Read</string>
+    <string name="text_PR_write">Pitch/Roll Write</string>
+    <string name="text_AutoStr">Auto Straightening</string>
+    <string name="text_AutoBal">Auto Balance</string>
+    <string name="text_Pitch_settings">Pitch:</string>
+    <string name="text_Roll_settings">Roll:</string>
+    <string name="text_Pitch_value">100</string>
+    <string name="text_Roll_value">100</string>
+    <string name="text_intro_drawer">Divertiti Con FabCat!</string>
+    <string name="itemText_increments">Increments</string>
+    <string name="itemText_main">Main</string>
+    <string name="itemText_connection">Connection</string>
+    <string name="itemText_functions">Functions</string>
+    <string name="itemText_meow">Meow</string>
+    <string name="itemText_wakeup">WakeUp</string>
+    <string name="itemText_sleep">Sleep</string>
+    <string name="itemText_seat">Seat</string>
+    <string name="itemText_standup">StandUp</string>
+    <string name="itemText_greats">Greats</string>
+    <string name="itemText_calibration">Calibration</string>
+    <string name="itemText_commands">Commands</string>
+
+
+</resources>

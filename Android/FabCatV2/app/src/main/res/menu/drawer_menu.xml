@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/nav_switch"
+        android:textColor="@color/black"
+        android:title="@string/itemText_increments"
+
+        app:actionLayout="@layout/action_view_switch" />
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_main"
+            android:textColor="@color/black"
+            android:title="@string/itemText_main" />
+        <item
+            android:id="@+id/nav_Connection"
+            android:textColor="@color/black"
+            android:title="@string/itemText_connection" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:textColor="@color/black"
+            android:title="@string/itemText_functions" />
+
+    </group>
+
+    <item android:title="@string/itemText_commands" android:textColor="@color/black" android:id="@+id/CommandText">
+        <menu>
+            <item
+                android:id="@+id/nav_Meow"
+                android:textColor="@color/black"
+                android:title="@string/itemText_meow" />
+            <item
+                android:id="@+id/nav_WakeUp"
+                android:textColor="@color/black"
+                android:title="@string/itemText_wakeup" />
+            <item
+                android:id="@+id/nav_Sleep"
+                android:textColor="@color/black"
+                android:title="@string/itemText_sleep" />
+            <item
+                android:id="@+id/nav_Seat"
+                android:textColor="@color/black"
+                android:title="@string/itemText_seat" />
+            <item
+                android:id="@+id/nav_StandUp"
+                android:textColor="@color/black"
+                android:title="@string/itemText_standup" />
+            <item
+                android:id="@+id/nav_Greats"
+                android:textColor="@color/black"
+                android:title="@string/itemText_greats" />
+            <item
+                android:id="@+id/nav_Calibration"
+                android:textColor="@color/black"
+                android:title="@string/itemText_calibration" />
+
+        </menu>
+    </item>
+
+</menu>
